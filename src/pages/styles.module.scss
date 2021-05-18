@@ -1,0 +1,48 @@
+.isiDiv {
+  border: 1px solid black;
+  transition: height 0.4s ease;
+  overflow: scroll;
+}
+
+svg {
+  height: 10px;
+  width: 10px;
+  color: orange;
+  fill: orange;
+}
+
+svg path {
+  fill: orange;
+}
+
+path {
+  fill: orange;
+}
+
+.content {
+  transition: height 0.4s ease;
+  transition-delay: display 1s ease;
+  z-index: 0 !important;
+  overflow: hidden;
+}
+
+.isiDivUnExp {
+  height: 143px;
+}
+
+.isiDivExp {
+  height: 652px;
+}
+
+.contentUnExp {
+  height: 509px;
+}
+
+.contentExp {
+  height: 0px;
+}
+
+.caretSvg {
+  height: 15px;
+  width: 15px;
+}
