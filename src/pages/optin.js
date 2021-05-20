@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react"
 import * as styles from "./styles.module.scss"
 import * as cheerio from "cheerio"
 import Layout from "../Components/Layout/layout"
+import IsiHeader from "./isi"
 
 const App = () => {
   const navBar = {
@@ -55,7 +56,7 @@ const App = () => {
       <div id="content" className={styles.content + " " + classes.content}>
         <div dangerouslySetInnerHTML={content}></div>
       </div>
-
+      <IsiHeader />
       <div
         id="isiDrawer"
         className={styles.isiDiv + " " + classes.isi}
